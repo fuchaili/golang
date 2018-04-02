@@ -20,4 +20,5 @@ func main() {
 	http.HandleFunc("/user/",user_handler)
 
 	http.ListenAndServe(":8080", nil)
+	fmt.Println("hello")
 }
